@@ -1,7 +1,7 @@
 \documentclass[a4paper]{moderncv}
 
 \moderncvtheme[blue]{classic}
-\usepackage{geometry}
+\usepackage[scale=0.75]{geometry}
 \nopagenumbers{}
 
 \name{Noa}{Burt}
@@ -10,18 +10,19 @@
 \phone[mobile]{(+44)~7422~523075}
 \social[linkedin]{noaburt}
 \social[github]{noaburt}
+\photo[64pt][0.9pt]{picture.png}
 
 \begin{document}
 \makecvtitle
 \section{Education}
-\cventry{2022--present}{BEng Computer \& Electronic Systems}{University of Strathclyde}{Glasgow, Scotland}{}{}
-\cventry{2016--2022}{High School}{Johnstone High School}{Johnstone, Scotland}{}{\textbf{Results (5\textsuperscript{th} and 6\textsuperscript{th} Year):}%
-\begin{itemize}%
+\cventry{2022--present}{BEng Computer \& Electronic Systems}{University of Strathclyde}{Glasgow, Scotland\newline{}}{}{}
+\cventry{2016--2022}{High School}{Johnstone High School}{Johnstone, Scotland}{}{\textbf{Results} (5\textsuperscript{th} and 6\textsuperscript{th} Year):
+\begin{itemize}
     \item AH Computing Science (B);
     \item AH Mathematics (D);
     \item H Physics (A);
     \item H English (A);
-    \item SCQF Level 5 Cyber Security (P);
+    \item SCQF Level 5 Cyber Security (P);\newline{}
 \end{itemize}}
 
 \section{Experience}
@@ -58,13 +59,21 @@ Some examples of skills below are displayed on personal \href{https://github.com
 \cvitemwithcomment{Python}{Proficient}{USM FS-AI, Personal development}
 \cvitemwithcomment{C}{Proficient}{Uni projects, Personal developent}
 \cvitemwithcomment{Git}{Proficient}{USM FS-AI, Uni projects, Personal development}
+\cvitemwithcomment{MatLab}{Proficient}{USM FS-AI, Uni projects}
 \cvitemwithcomment{}{}{}
-\cvitemwithcomment{Java}{Competent}{Uni Projects}
+\cvitemwithcomment{Simulink}{Competent}{Uni projects}
+\cvitemwithcomment{Java}{Competent}{Uni projects}
+\cvitemwithcomment{VHDL}{Competent}{Uni projects}
 \cvitemwithcomment{Docker}{Competent}{USM FS-AI}
 \cvitemwithcomment{ROS2}{Competent}{USM FS-AI}
 \cvitemwithcomment{}{}{}
+\cvitemwithcomment{LaTeX}{Basic}{USM FS-AI, Personal development}
 \cvitemwithcomment{C++}{Basic}{USM FS-AI (CAN Interfacing)}
 \cvitemwithcomment{GCC Tools}{Basic}{Personal development}
 
+\section{Other Skills / Knowledge}
+\cvlistdoubleitem{Electrical Circuit Design}{Object Oriented Programming}
+\cvlistdoubleitem{CI / CD Pipelines}{FPGA Development}
+\cvlistdoubleitem{Control Systems}{Linux Kernel Basics}
 
 \end{document}

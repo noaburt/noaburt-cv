@@ -1,80 +1,87 @@
 \documentclass[a4paper]{moderncv}
 
 \moderncvtheme[blue]{classic}
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.85]{geometry}
 \usepackage{enumitem}
 \nopagenumbers{}
 
 \name{Noa}{Burt}
 \title{Curriculum Vitae}
 \email{noaburt051221@gmail.com}
-\phone[mobile]{(+44)~7422~523075}
 \social[linkedin]{noaburt}
 \social[github]{noaburt}
 \photo[64pt][0.9pt]{picture.png}
 
 \begin{document}
 \makecvtitle
+
 \section{Education}
-\cventry{2022--present}{BEng Computer \& Electronic Systems}{University of Strathclyde}{Glasgow, Scotland\newline{}}{}{}
-\cventry{2016--2022}{High School}{Johnstone High School}{Johnstone, Scotland}{}{\textbf{Results} (5\textsuperscript{th} and 6\textsuperscript{th} Year):
-\begin{itemize}[leftmargin=30pt, itemsep=-2pt, topsep=-5pt]
-    \item AH Computing Science (B);
-    \item AH Mathematics (D);
-    \item H Physics (A);
-    \item H English (A);
-    \item SCQF Level 5 Cyber Security (P);
-\end{itemize}}
+\cventry{2022--2026}{BEng Computer \& Electronic Systems}{University of Strathclyde}{Glasgow, Scotland\newline{}}{}{}
 
-\section{Experience}
-\subsection{Extra-Curricular}
-\cventry{2025}{FPGA Development Summer Internship}{Thales}{Govan, Scotland}{}{TODO\newline{}}
-\cventry{2023--present}{Formula Student FS-AI}{University of Strathclyde Motorsport}{}{}{Active member of the University of Strathclyde's Formula Student team \textbf{USM}, specifically the Formula Student AI (FS-AI) team.\newline{}\newline{}
-In 2023/24, my first year in the team, I played a roll in leading the team to compete the the Formula Student UK Driverless competition for the first time in the team's history. This allowed me to improve many skills valuable to working in industry that my course otherwise would not.\newline{}\newline{}
-Development of our software involved many tools and languages I had previously been unexperienced with, such as:
-\begin{itemize}[leftmargin=30pt, itemsep=-2pt, topsep=-3pt]
-    \item ROS2 (Robot Operating System 2) Framework
-    \item CAN Interfacing in C++
-    \item Docker Containers
-    \item Interconnected Software Systems
-    \item Foxglove \& Dynamic Bicycle Physics Simulation\newline{}
+\section{Professional Experience}
+\cventry{2025}{Embedded Software Summer Internship}{Thales UK}{Govan, Scotland}{}{
+Embedded Software Engineer Intern\newline{}
+\begin{itemize}[leftmargin=-15pt, itemsep=0pt, topsep=1pt]
+    \item Co-lead project to act as "Embedded Software specialists" assisting Control Systems team
+    \item Proposing, implementing, and testing changes in Simulink models for various complex control algorithms, with the objective to generate more efficient C code
+    \item Identified possibility to automate a Simulink optimisation, created a custom MATLAB tool as the feature was not supported by MathWorks
+    \item Improved Processor In the Loop (PIL) testing pipeline by utilising USB On-The-Go through software, instead of previous limited UART USB connection
+    \item Provided detailed documentation of MATLAB tool, changes to PIL pipeline, as well as Wiki pages explaining how better code was generated, for Control Systems team\newline{}
 \end{itemize}
-Then, moving into the 2024/25 academic year, I led the development of a new automated testing system for our software, which utilised many new tools avaliable to the team that year, such as GitLab's CI and Cloud Hosting systems. This furthered my Docker and GitLab skillset, as well as leading the way for my application for Software Infrastructure System Head in the Driverless team\newline{}
 }
-\cventry{2022--2025}{Kitchen Porter}{The Boarding House}{Howwood, Scotland}{}{Member of kitchen staff for a popular Gastropub in Howwood.\newline{}\newline{}Employment here has developed my time management skills, as well as often dealing with responsibility for customer food presentation in a fast-paced environment.\newline{}}
-\cventry{2016--2024}{Bagpiper}{Johnstone Pipe Band}{Johnstone, Scotland}{}{Playing member of Johnstone Pipe Band (JPB).\newline{}\newline{}Playing for the Renfrewshire Schools Pipe Band, the novice branch of JPB at the time, before being promoted straight to the top level band (Grade 1) has taught me crucial skills for being a good team member, responsibility for putting in work in my own time, and general dicipline with the instrument as well as personal appearance\newline{}\newline{}}
 
-\subsection{Curricular}
-\cventry{2023--2024}{FPGA Design Project}{University of Strathclyde}{}{}{2\textsuperscript{nd} Year VHDL Class: Group Assignment\newline{}\newline{}
-One of my 2\textsuperscript{nd} year university modules was centered around VHDL programming and FPGA implementation. For the final assignment for this class, we were assigned a group design project; to design and implement a solution for a set task, collect our design process and implementation in a professional report, and demonstrate our solution.\newline{}\newline{}
-This class was my first introduction to such FPGA programming, while also allowing me to develop further my teamwork and report writing skills. The limitations present in describing hardware with VHDL proved very challenging at first, but sparked my intrest in FPGA development, leading to me seeking out such a summer internship for 2025.\newline{}\newline{}
+\cventry{2022--2025}{Kitchen Porter}{The Boarding House}{Howwood, Scotland}{}{
+Member of kitchen staff for a popular Gastropub in Howwood.\newline{}
+\begin{itemize}[leftmargin=-15pt, itemsep=0pt, topsep=1pt]
+    \item Development of time management skills, working in a fast-paced environment
+    \item Often given responsibility of customer food preperation and presentation\newline{}
+\end{itemize}
 }
-\cventry{2023--2024}{Simple Shell Project}{University of Strathclyde}{}{}{2\textsuperscript{nd} Year Operating Systems Class: Group Assignment\newline{}\newline{}
-Another group project completed in my 2\textsuperscript{nd} year was developing a simple OS shell in C for a Unix-type system. This was my first experience with both C and Linux development, but the challenges it presented motivated me to work harder to understand the concepts.\newline{}\newline{}
-Through this I gained valuable knowledge about operating systems, such as processing, thread, and memory management, scheduling, and many such OS concepts.\newline{}\newline{}
-This class led to my personal (partial) adoption of using Linux, mainly for further C software development, as well as discovering my interest in Embedded / Microcontroller development. This then resulting in my selection of 3\textsuperscript{rd} and 4\textsuperscript{th} year Microcontroller classes, and again leading me to seek out a summer internship in the field of Embedded systems for 2025.\newline{}\newline{}
+
+\section{Projects}
+\cventry{2023--2026}{Formula Student FS-AI}{University of Strathclyde Motorsport}{}{}{
+Head of Software Infrastructure\newline{}
+\begin{itemize}[leftmargin=-15pt, itemsep=0pt, topsep=1pt]
+    \item Active member of the University of Strathclyde's Formula Student team, \textbf{USM}
+    \item Played a roll in leading the team to compete in the FSUK Driverless competition in 2024 for the first time in the team's history
+    \item Lead development of an Automated Testing system in 2024/25, using a custom vehicle simulator, GitLab CI, and other tools newly available to the team that year
+    \item Head of Software Infrastructure for the team through 2025/26, leading further development of our custom simulator and automated testing package
+    \item Surveys collected from team members identified areas needing improvement in the software development workflow
+    \item Became confident in using Docker and GitLab systems, writing guides for new members on the subjects\newline{}
+\end{itemize}
+}
+
+\cventry{2023--2024}{Simple Shell Project}{University of Strathclyde}{}{}{
+2\textsuperscript{nd} Year Operating Systems Class: Group Assignment\newline{}
+\begin{itemize}[leftmargin=-15pt, itemsep=0pt, topsep=1pt]
+    \item Building a simple shell for Unix-type system in C
+    \item First exposure to C, Linux, and GCC tools, as well as CPU processes and threads, memory management, and other such OS conecepts
+    \item Challenge of this project lead me to develop my understanding of C further, eventually leading to an interest in C++ and Embedded Systems
+    \item Also lead to selecting Microcontroller classes through my 3\textsuperscript{rd} and 4\textsuperscript{th} year, further developing my C++ and assembly skills
+\end{itemize}
 }
 
 \section{Programming Languages / Tools}
-Some examples of skills below are displayed on personal \href{https://github.com/noaburt}{GitHub}\newline{}\newline{}
+Some examples of the skills below are displayed on my personal \href{https://github.com/noaburt}{\underline{GitHub}}\newline{}\newline{}
 \cvitemwithcomment{Python}{Proficient}{USM FS-AI, Personal development}
 \cvitemwithcomment{C}{Proficient}{Uni projects, Personal developent}
+\cvitemwithcomment{C++}{Proficient}{Work, USM FS-AI, Personal development}
 \cvitemwithcomment{Git}{Proficient}{USM FS-AI, Uni projects, Personal development}
-\cvitemwithcomment{MatLab}{Proficient}{USM FS-AI, Uni projects}
+\cvitemwithcomment{MATLAB}{Proficient}{Work, USM FS-AI, Uni projects}
+\cvitemwithcomment{Simulink}{Proficient}{Work, Uni projects}
 \cvitemwithcomment{}{}{}
-\cvitemwithcomment{Simulink}{Competent}{Uni projects}
 \cvitemwithcomment{Java}{Competent}{Uni projects}
-\cvitemwithcomment{VHDL}{Competent}{Uni projects}
 \cvitemwithcomment{Docker}{Competent}{USM FS-AI}
 \cvitemwithcomment{ROS2}{Competent}{USM FS-AI}
 \cvitemwithcomment{}{}{}
 \cvitemwithcomment{LaTeX}{Basic}{USM FS-AI, Personal development}
-\cvitemwithcomment{C++}{Basic}{USM FS-AI (CAN Interfacing)}
-\cvitemwithcomment{GCC Tools}{Basic}{Personal development}
+\cvitemwithcomment{VHDL}{Basic}{Uni projects}
+\cvitemwithcomment{GCC Tools}{Basic}{Work, Personal development}
 
-\section{Other Skills / Knowledge}
-\cvlistdoubleitem{Electrical Circuit Design}{Object Oriented Programming}
-\cvlistdoubleitem{CI / CD Pipelines}{FPGA Development}
-\cvlistdoubleitem{Control Systems}{Linux Kernel Basics}
+\section{General Interests / Hobbies}
+\cvlistdoubleitem{Electronics Design}{Bare Metal Programming}
+\cvlistdoubleitem{Control Systems}{Motorsport (Rally, MotoGP, F1)}
+\cvlistdoubleitem{Bagpipes / Pipe Bands}{Linux}
+
 
 \end{document}
